@@ -1,0 +1,51 @@
+.section {
+    padding: 4.5rem 0;
+}
+
+@media (min-width: 768px) {
+    .section {
+        padding: 6rem 0;
+    }
+}
+
+.AppLogo {
+    --rem-width: 6rem;
+    width: var(--rem-width);
+}
+
+@media (min-width: 768px) {
+    .AppLogo {
+        --rem-width: 8rem;
+    }
+}
+
+.AppLogo__image {
+    width: 100%;
+    height: auto;
+}
+
+.AppHeader {
+
+}
+
+.AppHeader__navbar {
+    padding: 1rem 0 .5rem;
+}
+
+.AppHeader__inner {
+    padding: 0 1.75rem;
+}
+
+@media (min-width: 992px) {
+    .AppHeader__inner {
+        padding: 0 .75rem;
+    }
+}
+
+.AppMain {
+
+}
+
+.AppFooter {
+
+}
